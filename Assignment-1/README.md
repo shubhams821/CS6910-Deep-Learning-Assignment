@@ -21,7 +21,7 @@ main.py: creates the sweep and randomly searches for best hyperparameter, it run
 
 
 
-Link to the project report: [https://wandb.ai/shubham821/DL_Ass_1_Try_8/reports/Shubham-Singh-CS6910-Assignment-1-Report--Vmlldzo3MTg0MTUz](url)
+Link to the project report: [https://api.wandb.ai/links/shubham821/z7mo7wk7](url)
 
 
 

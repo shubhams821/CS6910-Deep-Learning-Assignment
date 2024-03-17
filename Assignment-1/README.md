@@ -2,7 +2,6 @@
 
 Shubham Singh MA22C043
 Instructions to train and evaluate the neural network models:
-Install the required libraries in your environment using this command:
 
 To train a neural network model for image classification on the Fashion-MNIST dataset using categorical cross-entropy loss, import feed_forward_neural_network.py, and use feed_forward_neural_network.Feed_Forward_Neural_Network with any configuration to create the neural network.
 To train a neural network model:
@@ -14,7 +13,7 @@ optimizer: optimization routine
 
 main.py: creates the sweep and randomly searches for best hyperparameter, it runs for 200 counts maximum.
 
-1. To upload the example images from each class and the confusion matrices given as images trainmatrix.png and testmatrix.png in this repository, run the file titled: confusion_matrix_and_Quest_1.py.
+1. To upload the example images from each class and the confusion matrices given as images Example_Image.png and Confusion_Matrix.png in this repository, run the file titled: confusion_matrix_and_Quest_1.py.
 
 2. To train the model on MNIST dataset: run the file titled: train_for_mnist.py
 

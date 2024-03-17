@@ -15,9 +15,11 @@ main.py: creates the sweep and randomly searches for best hyperparameter, it run
 
 1. To upload the example images from each class and the confusion matrices given as images Example_Image.png and Confusion_Matrix.png in this repository, run the file titled: confusion_matrix_and_Quest_1.py.
 
-2. To train the model on MNIST dataset: run the file titled: train_for_mnist.py
+8. To train the model on Squared Error loss: run the file titled: train_for_squared error.py
 
-3. To train the model on Squared Error loss: run the file titled: train_for_squared error.py
+10. To train the model on MNIST dataset: run the file titled: train_for_mnist.py
+
+
 
 Link to the project report: [https://wandb.ai/shubham821/DL_Ass_1_Try_8/reports/Shubham-Singh-CS6910-Assignment-1-Report--Vmlldzo3MTg0MTUz](url)
 
@@ -32,6 +34,7 @@ These codes are based on a procedural framework and make no use of classes for N
 1. Training NN
 
 To train the NN, it takes the training data, the validation data and the hyperparameters and Trains a NN specified by hidden_layer_size and num_hidden_layers. This code provides flexibility in choosing the following hyperparameters:
+        
         'epochs': 5, 10
         'num_hidden_layers': 3, 4, 5
         'hidden_layer_size': 32, 64, 128
@@ -41,6 +44,7 @@ To train the NN, it takes the training data, the validation data and the hyperpa
         'batch_size': 16, 32, 64
         'weight_initialization':  'random', 'xavier'
         'activation_function': 'sigmoid', 'tanh', 'relu'
+       
 
 
 2. Model Evaluation

@@ -25,7 +25,7 @@ plt.gca().invert_yaxis()  # Invert the y-axis
 plt.savefig('confusion_matrix.png')  # Save the plot as an image
 plt.show()
 
-wandb.init(project='DL_Ass_1_Try_8')
+wandb.init(project='DL_Ass_1')
 
 # Log the confusion matrix as an image
 wandb.log({"Confusion_Matrix": wandb.Image('confusion_matrix.png')})

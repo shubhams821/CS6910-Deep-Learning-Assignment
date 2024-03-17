@@ -1,23 +1,24 @@
 # CS6910-Deep-Learning-Assignment - 1
 
-CS6910 Assignment 1
-Authors: Shubham Singh MA22C043
+Shubham Singh MA22C043
 Instructions to train and evaluate the neural network models:
 Install the required libraries in your environment using this command:
 
 To train a neural network model for image classification on the Fashion-MNIST dataset using categorical cross-entropy loss, import feed_forward_neural_network.py, and use feed_forward_neural_network.Feed_Forward_Neural_Network with any configuration to create the neural network.
 To train a neural network model:
-use feed_forward_neural_network.Feed_Forward_Neural_Network.{optimizer}
 
+use feed_forward_neural_network.Feed_Forward_Neural_Network.{optimizer}
 optimizer: optimization routine 
  (stochastic_gradient_descent, momentum_gradient_descent, nesterov_accelerated_gradient_descent, rmsprop, sdam, nadam)
 
 
 main.py: creates the sweep and randomly searches for best hyperparameter, it runs for 200 counts maximum.
 
-To upload the example images from each class and the confusion matrices given as images trainmatrix.png and testmatrix.png in this repository, run the file titled: confusion_matrix_and_Quest_1.py.
+1. To upload the example images from each class and the confusion matrices given as images trainmatrix.png and testmatrix.png in this repository, run the file titled: confusion_matrix_and_Quest_1.py.
 
+2. To train the model on MNIST dataset: run the file titled: train_for_mnist.py
 
+3. To train the model on Squared Error loss: run the file titled: train_for_squared error.py
 
 Link to the project report: [https://wandb.ai/shubham821/DL_Ass_1_Try_8/reports/Shubham-Singh-CS6910-Assignment-1-Report--Vmlldzo3MTg0MTUz](url)
 
@@ -43,9 +44,9 @@ To train the NN, it takes the training data, the validation data and the hyperpa
         'activation_function': 'sigmoid', 'tanh', 'relu'
 
 
-2. Model Evalulation
+2. Model Evaluation
 
-The function model_evalulation() takes x_test and y_test, and return test accuracy, test loss, y_test, y_pred.
+The function model_evaluation() takes x_test and y_test, and return test accuracy, test loss, y_test, y_pred.
 
 
 

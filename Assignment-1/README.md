@@ -27,7 +27,7 @@ Link to the project report: [https://wandb.ai/shubham821/DL_Ass_1_Try_8/reports/
 
 The NN training framework:
 
-These codes are based on a procedural framework and make no use of classes for NN models like keras does for the simplicity of understanding the code. This code works only for classification tasks and by default assumes that the activation function for the last layer is softmax. This was done for simplicity as because the tasks involved in the assignment did not call for a different output layer activation.
+These codes are based on a procedural framework and make no use of classes for NN models like keras does for the simplicity of understanding the code. This code works only for classification tasks and by default assumes that the activation function for the last layer is softmax.
 
 1. Training NN
 
